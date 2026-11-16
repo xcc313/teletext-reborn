@@ -1,0 +1,15 @@
+# Dependencies / build output
+node_modules/
+dist/
+coverage/
+
+# Secrets & local config
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# IMPORTANT: never ignore .kiro/ — specs, hooks and steering are required
+# for Kiroween 2026 judging and must stay committed.

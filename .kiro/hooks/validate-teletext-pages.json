@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "validate-teletext-pages",
+      "description": "Validate generated page/content JSON against the teletext authenticity rules whenever such a file is saved.",
+      "trigger": "PostFileSave",
+      "matcher": "src/(pages|content|store)/.*\\.json$|public/.*\\.json$",
+      "action": {
+        "type": "agent",
+        "prompt": "A page or content JSON file was just saved. Validate it against .kiro/steering/teletext-rules.md: exactly 25 rows of 40 cells, only the 8-color palette, header contains a 100-899 page number and service name, fastext row has four links colored red/green/yellow/cyan. Report any violation with its row/column position, and fix the file directly when the fix is unambiguous."
+      }
+    }
+  ]
+}
