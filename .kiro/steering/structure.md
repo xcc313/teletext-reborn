@@ -13,7 +13,9 @@ teletext-reborn/
 │   ├── store/              # page store, last-good fallback, refresh timer
 │   ├── renderer/           # DOM-grid teletext renderer
 │   ├── nav/                # keypad buffer, fastext, not-found page
-│   └── main.ts             # wiring / entry
+│   ├── app.ts              # createApp(): wires store, sources, refresh loop, nav, renderer
+│   ├── config.ts           # optional env settings (news key, weather location)
+│   └── main.ts             # entry: boots createApp into #app
 ├── tests/                  # mirrors src/ layout; *.test.ts and *.pbt.test.ts
 ├── public/                 # static assets, bundled demo feed JSON
 ├── docs/                   # demo-video outline, additional writeups

@@ -1,0 +1,13 @@
+{
+  "note": "Bundled sample headlines used when no news API key is configured. Fictional, not real news.",
+  "items": [
+    { "title": "Teletext returns: viewers rediscover the joy of three-digit pages" },
+    { "title": "Local council votes to reopen the old seaside railway line, with the first trains planned for next spring" },
+    { "title": "Scientists report a new battery design that charges in minutes and lasts for a decade" },
+    { "title": "Cup final goes to extra time as the home side equalises in the final minute" },
+    { "title": "Forecasters warn of heavy rain and gusty winds across the north and west overnight" },
+    { "title": "Museum unveils restored 1980s television studio to mark the anniversary of its first broadcast" },
+    { "title": "Markets steady as investors wait for the latest inflation figures" },
+    { "title": "Community garden wins national award for turning a disused car park into an orchard" }
+  ]
+}

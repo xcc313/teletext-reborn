@@ -1,0 +1,55 @@
+{
+  "totalArticles": 5,
+  "articles": [
+    {
+      "id": "a1",
+      "title": "Council approves plan to reopen the old railway line to passengers",
+      "description": "The regional council voted on Monday to restore a passenger service on the disused branch line.",
+      "content": "The regional council voted on Monday to restore a passenger service...",
+      "url": "https://example.com/news/railway-reopens",
+      "image": "https://example.com/images/railway.jpg",
+      "publishedAt": "2026-11-16T07:45:00Z",
+      "source": { "name": "Example Gazette", "url": "https://example.com" }
+    },
+    {
+      "id": "a2",
+      "title": "Tech firm unveils battery that charges in under five minutes, claiming a decade of useful life without any noticeable loss of capacity",
+      "description": "Independent testing has not yet confirmed the claims.",
+      "content": "Independent testing has not yet confirmed...",
+      "url": "https://example.com/news/battery",
+      "image": null,
+      "publishedAt": "2026-11-16T06:10:00Z",
+      "source": { "name": "Example Tech", "url": "https://example.com/tech" }
+    },
+    {
+      "id": "a3",
+      "title": "   Local   team\nwins   cup final   ",
+      "description": "A late goal settled it.",
+      "content": "A late goal settled it...",
+      "url": "https://example.com/news/cup",
+      "image": null,
+      "publishedAt": "2026-11-15T21:00:00Z",
+      "source": { "name": "Example Sport", "url": "https://example.com/sport" }
+    },
+    {
+      "id": "a4",
+      "title": "",
+      "description": "An article with no title must be skipped.",
+      "content": "",
+      "url": "https://example.com/news/untitled",
+      "image": null,
+      "publishedAt": "2026-11-15T20:00:00Z",
+      "source": { "name": "Example Gazette", "url": "https://example.com" }
+    },
+    {
+      "id": "a5",
+      "title": "Supercalifragilisticexpialidocious-sized-headline-word-that-never-ends wins award",
+      "description": "Overlong single token.",
+      "content": "Overlong single token...",
+      "url": "https://example.com/news/long-word",
+      "image": null,
+      "publishedAt": "2026-11-15T19:00:00Z",
+      "source": { "name": "Example Gazette", "url": "https://example.com" }
+    }
+  ]
+}

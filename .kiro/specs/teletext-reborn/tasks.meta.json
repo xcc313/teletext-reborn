@@ -1,0 +1,231 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Scaffold the project": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820321959
+      }
+    ],
+    "2.1 Write failing tests for `validatePage`: grid dimensions, palette membership, header format, fastext count and colors": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820327612
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820401554
+      }
+    ],
+    "2.2 Implement `Page` / `Row` / `Cell` types and `validatePage()` until green": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820405558
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820497566
+      }
+    ],
+    "2. Page model and validation": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820497614
+      }
+    ],
+    "3.1 Write failing tests: word wrap at 40 columns, long-word truncation, empty input, blank lines": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820501744
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820564080
+      }
+    ],
+    "3.2 Implement `typeset()` until green": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820568165
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820607085
+      }
+    ],
+    "3.3 Add property-based test: for arbitrary strings, no output line exceeds 40 columns": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820610922
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820717484
+      }
+    ],
+    "3. Typesetter": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820717533
+      }
+    ],
+    "4.1 Write failing tests: renders exactly 40×25 cells, header row content, fastext row colors": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794820721546
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821064817
+      }
+    ],
+    "4.2 Implement the DOM-grid renderer until green": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821068429
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821137074
+      }
+    ],
+    "4.3 Add property-based test: any valid Page renders without throwing and preserves grid dimensions and palette": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821140896
+      },
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821518135
+      }
+    ],
+    "4. Renderer": [
+      {
+        "executionId": "3f81fffe-1e7c-4565-85c9-5e8cf4d8d5dc",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821518184
+      }
+    ],
+    "5. Navigation": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821718952
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821723908
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822018154
+      }
+    ],
+    "6. Weather connector and page 302": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821719017
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822021548
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822340430
+      }
+    ],
+    "7. News connector and page 101": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821719047
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822343722
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822580346
+      }
+    ],
+    "8. Page store, refresh loop, pages 100 and 888": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821719078
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822583683
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822837577
+      }
+    ],
+    "9. End-to-end wiring and judge readiness": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821719108
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794822840961
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794823161506
+      }
+    ],
+    "10. Final compliance pass": [
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794821719135
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794823165888
+      },
+      {
+        "executionId": "9cc1e0ff-8c52-4fb5-80b6-e0d741f9f580",
+        "chatSessionId": "sess_9e0e7324-88e7-43bb-bfb1-422a3a3bb2bf",
+        "timestamp": 1794879302895
+      }
+    ]
+  }
+}
